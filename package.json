@@ -1,0 +1,15 @@
+{
+  "name": "anya",
+  "version": "1.0.0",
+  "description": "Given a random number generator that gives a number between 9 and 20 inclusive. We need to convert it into a random number generator that generates a random number between 1 and 100 inclusive instead.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
