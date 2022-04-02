@@ -13,10 +13,10 @@ test("For all numbers between 9 and 20 inclusive, check if oneToHundredGenerator
     }
 })
 
-test("If nineToTwentyGenerator is 9, oneToHundredGenerator should be 1", () => {
+test("If nineToTwentyGenerator value is 9, oneToHundredGenerator value should be 1", () => {
     expect(randomgen.oneToHundredGenerator(9)).toBe(1);
 })
 
-test("If nineToTwentyGenerator is 20, oneToHundredGenerator should be 100", () => {
+test("If nineToTwentyGenerator value is 20, oneToHundredGenerator value should be 100", () => {
     expect(randomgen.oneToHundredGenerator(20)).toBe(100);
 })
